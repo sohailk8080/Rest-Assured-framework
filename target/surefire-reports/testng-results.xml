@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-26T13:28:16 IST" name="Surefire suite" finished-at="2022-12-26T13:28:22 IST" duration-ms="6105">
+    <groups>
+    </groups>
+    <test started-at="2022-12-26T13:28:16 IST" name="Surefire test" finished-at="2022-12-26T13:28:22 IST" duration-ms="6105">
+      <class name="com.rest.spotify.oauth2.tests.PlaylistTests">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.rest.spotify.oauth2.tests.PlaylistTests@627d8516]" started-at="2022-12-26T13:28:16 IST" name="beforeMethod" finished-at="2022-12-26T13:28:16 IST" duration-ms="31" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.rest.spotify.oauth2.tests.PlaylistTests.createPlaylistWithoutName()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.rest.spotify.oauth2.tests.PlaylistTests@627d8516]" started-at="2022-12-26T13:28:16 IST" name="beforeMethod" finished-at="2022-12-26T13:28:16 IST" duration-ms="31" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.rest.spotify.oauth2.tests.PlaylistTests.createPlaylistWithExpiredToken()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.rest.spotify.oauth2.tests.PlaylistTests@627d8516]" started-at="2022-12-26T13:28:16 IST" name="beforeMethod" finished-at="2022-12-26T13:28:16 IST" duration-ms="31" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.rest.spotify.oauth2.tests.PlaylistTests.getCreatedPlaylist()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.rest.spotify.oauth2.tests.PlaylistTests@627d8516]" started-at="2022-12-26T13:28:16 IST" name="beforeMethod" finished-at="2022-12-26T13:28:16 IST" duration-ms="31" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.rest.spotify.oauth2.tests.PlaylistTests.createPlaylist()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.rest.spotify.oauth2.tests.PlaylistTests@627d8516]" started-at="2022-12-26T13:28:16 IST" name="beforeMethod" finished-at="2022-12-26T13:28:16 IST" duration-ms="31" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.rest.spotify.oauth2.tests.PlaylistTests.updateCreatedPlaylist()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="getCreatedPlaylist()[pri:0, instance:com.rest.spotify.oauth2.tests.PlaylistTests@627d8516]" started-at="2022-12-26T13:28:16 IST" name="getCreatedPlaylist" description="Test Case 2::Get the created Spotify Playlist" finished-at="2022-12-26T13:28:22 IST" duration-ms="5834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCreatedPlaylist -->
+        <test-method signature="createPlaylistWithExpiredToken()[pri:0, instance:com.rest.spotify.oauth2.tests.PlaylistTests@627d8516]" started-at="2022-12-26T13:28:16 IST" name="createPlaylistWithExpiredToken" description="Test Case 5::Create a Spotify Playlist with Expired Token" finished-at="2022-12-26T13:28:20 IST" duration-ms="3391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPlaylistWithExpiredToken -->
+        <test-method signature="createPlaylist()[pri:0, instance:com.rest.spotify.oauth2.tests.PlaylistTests@627d8516]" started-at="2022-12-26T13:28:16 IST" name="createPlaylist" description="Test Case 1::Create a Spotify Playlist" finished-at="2022-12-26T13:28:22 IST" duration-ms="5513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPlaylist -->
+        <test-method signature="createPlaylistWithoutName()[pri:0, instance:com.rest.spotify.oauth2.tests.PlaylistTests@627d8516]" started-at="2022-12-26T13:28:16 IST" name="createPlaylistWithoutName" description="Test Case 4::Create a Spotify Playlist without name" finished-at="2022-12-26T13:28:22 IST" duration-ms="5292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPlaylistWithoutName -->
+        <test-method signature="updateCreatedPlaylist()[pri:0, instance:com.rest.spotify.oauth2.tests.PlaylistTests@627d8516]" started-at="2022-12-26T13:28:16 IST" name="updateCreatedPlaylist" description="Test Case 3::Update the created Spotify Playlist" finished-at="2022-12-26T13:28:22 IST" duration-ms="5862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateCreatedPlaylist -->
+      </class> <!-- com.rest.spotify.oauth2.tests.PlaylistTests -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
